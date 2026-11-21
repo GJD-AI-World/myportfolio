@@ -1,0 +1,1 @@
+@keyframes image-edit-band-drift-x{0%{transform:translate(0,0)}to{transform:translate(600px)}}@keyframes image-edit-band-fade{50%{opacity:.3}}.image-edit-band-drift-x{animation:2.4s linear infinite image-edit-band-drift-x}@media (prefers-reduced-motion:reduce){.image-edit-band-drift-x{animation:2.4s ease-in-out infinite image-edit-band-fade}}

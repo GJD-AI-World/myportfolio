@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Preview portfolio (Vite)",
+      "type": "shell",
+      "command": "npm.cmd",
+      "args": ["run", "dev", "--", "--host", "127.0.0.1", "--open"],
+      "options": {
+        "cwd": "${workspaceFolder}/gjd-ai-world"
+      },
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "focus": false,
+        "panel": "dedicated"
+      }
+    }
+  ]
+}
